@@ -22,10 +22,6 @@ df['time'] = pd.to_datetime(df['time'], dayfirst=True, errors='coerce')
 df['tanggal'] = df['time'].dt.date
 df['jam'] = df['time'].dt.hour
 
-# 7. Normalisasi penulisan nama holder (huruf kecil semua lalu kapital di awal kata)
-df['holder'] = df['holder'].str.strip().str.lower()
-df['holder'] = df['holder'].str.title()
-
 # 8. Statistik dasar
 print("Jumlah baris setelah cleaning:", len(df))
 print("Total log:", len(df))
