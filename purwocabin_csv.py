@@ -4,6 +4,7 @@ import seaborn as sns
 import os
 
 folder_path = "."
+
 csv_files = [
     f for f in os.listdir(folder_path)
     if f.lower().endswith('.csv')
@@ -12,25 +13,39 @@ csv_files = [
 ]
 
 dataframes = []
+
 for file in csv_files:
-    df = pd.read_csv(file, skiprows=1)
+    df = pd.read_csv(os.path.join(folder_path, file), skiprows=1)
     df["sumber_file"] = file
+
+    df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_', regex=False)
+
+    possible_time_cols = [col for col in df.columns if 'time' in col or 'waktu' in col]
+    if not possible_time_cols:
+        print(f"❌ Lewatkan file {file}: kolom waktu tidak ditemukan.")
+        continue
+
+    time_col = possible_time_cols[0]
+
+    try:
+        df['time'] = pd.to_datetime(df[time_col], format="%d-%b-%y %H:%M:%S", errors='raise')
+    except Exception as e:
+        print(f"Gagal parsing time di file {file} dengan format spesifik, fallback pakai dateutil parser.")
+        df['time'] = pd.to_datetime(df[time_col], dayfirst=True, errors='coerce')
+
     dataframes.append(df)
 
+if not dataframes:
+    print("❌ Tidak ada file valid ditemukan.")
+    exit()
+
 df = pd.concat(dataframes, ignore_index=True)
-df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_', regex=False)
 
-# Konversi kolom waktu ke datetime
-df['time'] = pd.to_datetime(df['time'], dayfirst=True, errors='coerce')
-
-# Simpan duplikat yang akan dibuang
 duplikat = df[df.duplicated(subset=['holder', 'time', 'card_no.'], keep='first')]
 duplikat.to_csv('duplikat.csv', index=False)
 
-# Hapus duplikat - PERBAIKAN: Hapus duplikat berdasarkan SEMUA kolom penting
 df = df.drop_duplicates(subset=['holder', 'time', 'card_no.', 'card_type'], keep='first').reset_index(drop=True)
 
-# Kolom tambahan
 df['tanggal'] = df['time'].dt.date
 df['jam'] = df['time'].dt.hour
 df['holder'] = df['holder'].astype(str).str.strip().str.lower().str.title()
@@ -38,15 +53,14 @@ df['waktu_singkat'] = df['time'].dt.strftime('%Y-%m-%d %H:%M:%S')
 
 df_cleaned = df.copy()
 
-# Statistik
-print("\n📊 Statistik:")
+
+print("\n Statistik:")
 print("Jumlah baris setelah cleaning:", len(df_cleaned))
 print("Total log:", len(df_cleaned))
 print("Jumlah kartu unik:", df_cleaned['card_no.'].nunique() if 'card_no.' in df_cleaned.columns else "Kolom card_no. tidak ditemukan")
 print("Holder terbanyak:")
 print(df_cleaned['holder'].value_counts().head(5))
 
-# Visualisasi
 akses_jam = df_cleaned['jam'].value_counts().sort_index()
 if not akses_jam.empty:
     akses_jam.plot(kind='bar', title='Akses Pintu per Jam')
@@ -66,7 +80,6 @@ akses_dinihari = df_cleaned[df_cleaned['jam'] < 6]
 print("Log aktivitas antara jam 00:00 - 06:00:", len(akses_dinihari))
 print(df_cleaned['card_type'].value_counts())
 
-# Group penggunaan kartu
 card_usage = (
     df_cleaned.groupby(['card_no.', 'holder', 'card_type'])
     .size()
@@ -74,11 +87,9 @@ card_usage = (
     .sort_values('Jumlah Penggunaan', ascending=False)
 )
 
-# Simpan data hasil cleaning
 df_cleaned.to_csv('akses_cleaned.csv', index=False)
 df_cleaned.to_excel('akses_cleaned.xlsx', index=False)
 
-# ==================== Visualisasi Lanjutan ====================
 akses_per_tanggal = df_cleaned['tanggal'].value_counts().sort_index()
 plt.figure(figsize=(12, 5))
 akses_per_tanggal.plot(kind='line', marker='o', title='Akses Pintu per Tanggal')
@@ -107,7 +118,6 @@ plt.tight_layout()
 plt.savefig('distribusi_card_type.png')
 plt.show()
 
-# ==================== Export Excel Ringkasan ====================
 summary_writer = pd.ExcelWriter('laporan_ringkasan_akses.xlsx', engine='xlsxwriter')
 
 summary_info = {
@@ -131,7 +141,13 @@ df_cleaned['holder'].value_counts().head(10).reset_index().rename(
 ).to_excel(summary_writer, sheet_name='Top 10 Holder', index=False)
 
 card_usage.to_excel(summary_writer, sheet_name='Penggunaan Kartu', index=False)
-
 akses_dinihari.to_excel(summary_writer, sheet_name='Log Dini Hari', index=False)
 
 summary_writer.close()
+
+# ==================== Export per sheet berdasarkan file sumber ====================
+per_file_writer = pd.ExcelWriter("akses_cleaned_per_file.xlsx", engine="xlsxwriter")
+for sumber_file, df_per_file in df_cleaned.groupby("sumber_file"):
+    sheet_name = sumber_file.replace(".csv", "")[:31]
+    df_per_file.to_excel(per_file_writer, sheet_name=sheet_name, index=False)
+per_file_writer.close()
