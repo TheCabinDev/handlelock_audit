@@ -195,17 +195,18 @@ summary_writer.close()
 
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
 print("\nMembuat laporan per kamar...")
-per_file_writer = pd.ExcelWriter("akses_cleaned_per_file.xlsx", engine="xlsxwriter")
-
-df_export = df_with_source.drop(columns=['sumber_file'])
+per_file_writer = pd.ExcelWriter("akses_cleaned_per_file_tugucabin.xlsx", engine="xlsxwriter")
 
 for sumber_file, df_per_file in df_with_source.groupby("sumber_file"):
+    # Hapus kolom sumber_file dari setiap group
     df_per_file_clean = df_per_file.drop(columns=['sumber_file']).reset_index(drop=True)
     
+    # Buat nama sheet dari nama file (maksimal 31 karakter untuk Excel)
     sheet_name = sumber_file.replace(".csv", "").replace("Tugu_30062025_", "Kamar_")[:31]
     
+    # Export ke sheet
     df_per_file_clean.to_excel(per_file_writer, sheet_name=sheet_name, index=False)
     print(f"✅ Sheet '{sheet_name}' dibuat dengan {len(df_per_file_clean)} baris data")
 
 per_file_writer.close()
-print("File 'akses_cleaned_per_file.xlsx' berhasil dibuat!")
+print("📁 File 'akses_cleaned_per_file_tugucabin.xlsx' berhasil dibuat!")
