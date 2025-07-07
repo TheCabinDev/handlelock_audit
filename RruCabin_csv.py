@@ -78,7 +78,7 @@ df = pd.concat(dataframes, ignore_index=True)
 
 # ==================== Filter berdasarkan kolom flag ====================
 # Hapus baris dengan flag tertentu yang tidak diinginkan
-flag_to_remove = ['latch bold record', 'exit double locked', 'double locked record']
+flag_to_remove = ['latch bold record', 'latch bolt record', 'exit double locked', 'double locked record']
 
 print(f"\n🔍 Filtering data berdasarkan kolom flag...")
 print(f"Total baris sebelum filter: {len(df)}")
@@ -102,6 +102,26 @@ if 'flag' in df.columns:
         print("Tidak ada baris dengan flag yang perlu dihapus")
 else:
     print("⚠️  Kolom 'flag' tidak ditemukan, skip filtering")
+
+# ==================== Cleaning kolom kosong/NaN ====================
+print(f"\n🧹 Cleaning data kosong/NaN...")
+print(f"Total baris sebelum cleaning NaN: {len(df)}")
+
+# Hapus baris yang memiliki nilai NaN/kosong di kolom penting
+kolom_penting = ['holder', 'card_no.', 'card_type']
+for kolom in kolom_penting:
+    if kolom in df.columns:
+        sebelum = len(df)
+        # Hapus baris dengan nilai kosong, NaN, atau string 'nan'/'null'
+        df = df[df[kolom].notna() & 
+                (df[kolom].astype(str).str.strip() != '') & 
+                (df[kolom].astype(str).str.lower() != 'nan') &
+                (df[kolom].astype(str).str.lower() != 'null')].reset_index(drop=True)
+        sesudah = len(df)
+        if sebelum != sesudah:
+            print(f"  - Kolom '{kolom}': {sebelum - sesudah} baris dengan nilai kosong dihapus")
+
+print(f"Total baris setelah cleaning NaN: {len(df)}")
 
 # duplikat = df[df.duplicated(subset=['holder', 'time', 'card_no.'], keep='first')]
 # duplikat.to_csv('duplikat.csv', index=False)
