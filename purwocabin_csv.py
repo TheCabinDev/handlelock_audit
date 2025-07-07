@@ -2,6 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+import warnings
+
+# Mengurangi warning yang tidak penting
+warnings.filterwarnings('ignore', category=UserWarning, message='Could not infer format')
+warnings.filterwarnings('ignore', category=UserWarning, message='The argument \'infer_datetime_format\'')
 
 folder_path = "."
 
@@ -20,18 +25,49 @@ for file in csv_files:
 
     df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_', regex=False)
 
-    possible_time_cols = [col for col in df.columns if 'time' in col or 'waktu' in col]
+    possible_time_cols = [col for col in df.columns if 'time' in col and col != 'time_issued' and col != 'time_modified']
     if not possible_time_cols:
         print(f"❌ Lewatkan file {file}: kolom waktu tidak ditemukan.")
         continue
 
     time_col = possible_time_cols[0]
+    print(f"📅 Memproses kolom waktu '{time_col}' di file {file}")
 
-    try:
-        df['time'] = pd.to_datetime(df[time_col], format="%d-%b-%y %H:%M:%S", errors='raise')
-    except Exception as e:
-        print(f"Gagal parsing time di file {file} dengan format spesifik, fallback pakai dateutil parser.")
+    # Coba berbagai format waktu yang umum digunakan
+    format_waktu = [
+        "%d-%b-%y %H:%M:%S",    # 25-Jun-25 14:02:00 (format yang ada di file)
+        "%d-%b-%Y %H:%M:%S",    # 25-Jun-2025 14:02:00
+        "%d/%m/%Y %H:%M:%S",    # 01/01/2023 12:30:45
+        "%Y-%m-%d %H:%M:%S",    # 2023-01-01 12:30:45
+        "%d-%m-%Y %H:%M:%S",    # 01-01-2023 12:30:45
+        "%d/%m/%y %H:%M:%S",    # 01/01/23 12:30:45
+        "%d-%b-%y %H:%M",       # 25-Jun-25 14:02 (tanpa detik)
+        "%d-%b-%Y %H:%M"        # 25-Jun-2025 14:02 (tanpa detik)
+    ]
+    
+    berhasil_parsing = False
+    for fmt in format_waktu:
+        try:
+            df['time'] = pd.to_datetime(df[time_col], format=fmt, errors='raise')
+            print(f"✅ Berhasil parsing waktu dengan format: {fmt}")
+            berhasil_parsing = True
+            break
+        except ValueError:
+            continue
+        except Exception as e:
+            continue
+    
+    if not berhasil_parsing:
+        print(f"⚠️  Format waktu di file {file} tidak standar, menggunakan parser otomatis...")
+        # Gunakan parser yang lebih modern tanpa infer_datetime_format yang deprecated
         df['time'] = pd.to_datetime(df[time_col], dayfirst=True, errors='coerce')
+        
+        # Cek apakah ada nilai NaT (Not a Time) setelah parsing
+        jumlah_error = df['time'].isna().sum()
+        if jumlah_error > 0:
+            print(f"⚠️  {jumlah_error} baris dengan format waktu tidak valid di file {file}")
+            # Hapus baris dengan waktu yang tidak valid
+            df = df.dropna(subset=['time'])
 
     dataframes.append(df)
 
