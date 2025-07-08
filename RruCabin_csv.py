@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, message='Could not infer format')
 warnings.filterwarnings('ignore', category=UserWarning, message='The argument \'infer_datetime_format\'')
 
-folder_path = "."
+folder_path = "./data_rru"
 
 csv_files = [
     f for f in os.listdir(folder_path)
@@ -208,37 +208,6 @@ card_usage = (
 # plt.tight_layout()
 # plt.savefig('distribusi_card_type.png')
 # plt.show()
-
-summary_writer = pd.ExcelWriter('laporan_ringkasan_akses.xlsx', engine='xlsxwriter')
-
-
-df_temp = df_cleaned.copy()
-df_temp['jam_temp'] = df_temp['waktu_tempel_kartu'].dt.hour
-
-summary_info = {
-    'Total Log': [len(df_cleaned)],
-    'Jumlah Kartu Unik': [df_cleaned['card_no.'].nunique()],
-    'Jumlah Holder Unik': [df_cleaned['holder'].nunique()],
-    'Log Dini Hari (00-06)': [len(akses_dinihari)]
-}
-pd.DataFrame(summary_info).to_excel(summary_writer, sheet_name='Ringkasan Umum', index=False)
-
-df_temp['jam_temp'].value_counts().sort_index().reset_index().rename(
-    columns={'index': 'Jam', 'jam_temp': 'Jumlah Akses'}
-).to_excel(summary_writer, sheet_name='Akses per Jam', index=False)
-
-# akses_per_tanggal.reset_index().rename(columns={'index': 'Tanggal', 'tanggal': 'Jumlah Akses'}).to_excel(
-#     summary_writer, sheet_name='Akses per Tanggal', index=False
-# )
-
-df_cleaned['holder'].value_counts().head(10).reset_index().rename(
-    columns={'index': 'Holder', 'holder': 'Jumlah Akses'}
-).to_excel(summary_writer, sheet_name='Top 10 Holder', index=False)
-
-card_usage.to_excel(summary_writer, sheet_name='Penggunaan Kartu', index=False)
-akses_dinihari.to_excel(summary_writer, sheet_name='Log Dini Hari', index=False)
-
-summary_writer.close()
 
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
 print("\nMembuat laporan per kamar...")
