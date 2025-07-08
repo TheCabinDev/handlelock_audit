@@ -153,15 +153,6 @@ print(df_cleaned['holder'].value_counts().head(5))
 
 df_cleaned['jam_temp'] = df_cleaned['waktu_tempel_kartu'].dt.hour
 
-# akses_jam = df_cleaned['jam_temp'].value_counts().sort_index()
-# if not akses_jam.empty:
-#     akses_jam.plot(kind='bar', title='Akses Pintu per Jam')
-#     plt.xlabel('Jam')
-#     plt.ylabel('Jumlah Akses')
-#     plt.tight_layout()
-#     plt.savefig('akses_per_jam.png')
-#     plt.show()
-
 
 akses_dinihari = df_cleaned[df_cleaned['jam_temp'] < 6]
 print("Log aktivitas antara jam 00:00 - 06:00:", len(akses_dinihari))
@@ -178,40 +169,9 @@ card_usage = (
     .sort_values('Jumlah Penggunaan', ascending=False)
 )
 
-# df_cleaned.to_csv('akses_cleaned.csv', index=False)
-# df_cleaned.to_excel('akses_cleaned.xlsx', index=False)
-
-# akses_per_tanggal = df_cleaned['tanggal'].value_counts().sort_index()
-# plt.figure(figsize=(12, 5))
-# akses_per_tanggal.plot(kind='line', marker='o', title='Akses Pintu per Tanggal')
-# plt.xlabel('Tanggal')
-# plt.ylabel('Jumlah Akses')
-# plt.xticks(rotation=45)
-# plt.tight_layout()
-# plt.savefig('akses_per_tanggal.png')
-# plt.show()
-
-# pivot_heatmap = df_cleaned.pivot_table(index='jam', columns='tanggal', values='holder', aggfunc='count')
-# plt.figure(figsize=(12, 7))
-# sns.heatmap(pivot_heatmap, cmap='YlGnBu', linewidths=0.5)
-# plt.title("Heatmap Akses: Jam vs Tanggal")
-# plt.xlabel("Tanggal")
-# plt.ylabel("Jam")
-# plt.tight_layout()
-# plt.savefig('heatmap_jam_vs_tanggal.png')
-# plt.show()
-
-# plt.figure(figsize=(6, 6))
-# df_cleaned['card_type'].value_counts().plot(kind='pie', autopct='%1.1f%%', startangle=140)
-# plt.title('Distribusi Jenis Kartu')
-# plt.ylabel('')
-# plt.tight_layout()
-# plt.savefig('distribusi_card_type.png')
-# plt.show()
-
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
 print("\nMembuat laporan per kamar...")
-per_file_writer = pd.ExcelWriter("akses_cleaned_per_file_rrucabin.xlsx", engine="xlsxwriter")
+per_file_writer = pd.ExcelWriter("File-RruCabin.xlsx", engine="xlsxwriter")
 
 for sumber_file, df_per_file in df_with_source.groupby("sumber_file"):
     # Hapus kolom sumber_file dari setiap group
@@ -225,4 +185,4 @@ for sumber_file, df_per_file in df_with_source.groupby("sumber_file"):
     print(f"✅ Sheet '{sheet_name}' dibuat dengan {len(df_per_file_clean)} baris data")
 
 per_file_writer.close()
-print("📁 File 'akses_cleaned_per_file_rrucabin.xlsx' berhasil dibuat!")
+print("📁 File 'File-RruCabin.xlsx' berhasil dibuat!")
