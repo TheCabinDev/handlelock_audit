@@ -1,0 +1,422 @@
+Opening Record Report (0306),,,,,,,,,,
+Event Ord.,Time,Flag,Card Type,Card No.,Holder,ID No.,Issuer,Time Issued,Modifier,Time Modified
+1,03-Jul-25 14:45:00,,Clock Card,,,,,,,
+2,03-Jul-25 12:56:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+3,03-Jul-25 12:05:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+4,03-Jul-25 00:06:00,,Guest Card,14435,Saeful Amrin,,Dias,02-Jul-25 23:17:15,,
+5,02-Jul-25 23:30:00,,Guest Card,14435,Saeful Amrin,,Dias,02-Jul-25 23:17:15,,
+6,02-Jul-25 17:27:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+7,02-Jul-25 12:41:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+8,01-Jul-25 23:37:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+9,01-Jul-25 21:19:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+10,01-Jul-25 18:40:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+11,01-Jul-25 18:40:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+12,01-Jul-25 18:28:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+13,01-Jul-25 18:28:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+14,01-Jul-25 18:28:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+15,01-Jul-25 18:28:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+16,01-Jul-25 18:28:00,,Guest Card,14409,Kristian Laiskodat,,Dias,01-Jul-25 18:19:09,,
+17,01-Jul-25 08:46:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+18,01-Jul-25 08:16:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+19,01-Jul-25 08:12:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+20,01-Jul-25 08:12:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+21,01-Jul-25 08:12:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+22,30-Jun-25 22:13:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+23,30-Jun-25 22:12:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+24,30-Jun-25 22:11:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+25,30-Jun-25 22:11:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+26,30-Jun-25 22:05:00,,Guest Card,14386,Zainal Besi,,reza,30-Jun-25 21:52:10,,
+27,30-Jun-25 14:43:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+28,29-Jun-25 21:56:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+29,29-Jun-25 13:35:00,,Guest Card,14361,christoper,,Irma,29-Jun-25 13:25:26,,
+30,29-Jun-25 08:17:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+31,28-Jun-25 21:08:00,,Guest Card,14323,agus setiaywan,,Irma,27-Jun-25 16:36:02,,
+32,27-Jun-25 20:42:00,,Guest Card,14323,agus setiaywan,,Irma,27-Jun-25 16:36:02,,
+33,27-Jun-25 20:17:00,,Guest Card,14323,agus setiaywan,,Irma,27-Jun-25 16:36:02,,
+34,27-Jun-25 11:25:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+35,26-Jun-25 21:14:00,,Guest Card,14301,Retno Puspitasari,,Dias,26-Jun-25 21:04:21,,
+36,26-Jun-25 13:36:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+37,25-Jun-25 17:12:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+38,25-Jun-25 16:36:00,,Guest Card,14271,Ilham Abdillah,,Dias,25-Jun-25 16:25:47,,
+39,25-Jun-25 13:19:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+40,25-Jun-25 10:38:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+41,25-Jun-25 10:20:00,,Guest Card,14244,Robinson Tafoki,,Irma,24-Jun-25 18:01:45,,
+42,25-Jun-25 08:21:00,,Guest Card,14244,Robinson Tafoki,,Irma,24-Jun-25 18:01:45,,
+43,25-Jun-25 08:08:00,,Guest Card,14244,Robinson Tafoki,,Irma,24-Jun-25 18:01:45,,
+44,24-Jun-25 20:29:00,,Guest Card,14244,Robinson Tafoki,,Irma,24-Jun-25 18:01:45,,
+45,24-Jun-25 18:10:00,,Guest Card,14244,Robinson Tafoki,,Irma,24-Jun-25 18:01:45,,
+46,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+47,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+48,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+49,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+50,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+51,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+52,24-Jun-25 18:04:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+53,24-Jun-25 18:03:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+54,24-Jun-25 17:46:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+55,24-Jun-25 17:41:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+56,24-Jun-25 17:41:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+57,24-Jun-25 17:11:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+58,24-Jun-25 17:11:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+59,24-Jun-25 17:11:00,Expired,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+60,24-Jun-25 16:08:00,,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+61,24-Jun-25 15:57:00,,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+62,24-Jun-25 15:02:00,,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+63,23-Jun-25 20:28:00,,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+64,23-Jun-25 17:19:00,,Guest Card,14221,Robinson Tafoki,,reza,23-Jun-25 17:08:20,,
+65,23-Jun-25 09:19:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+66,22-Jun-25 23:36:00,,Guest Card,14210,Agung Setya Budi Pra,,Irma,22-Jun-25 23:25:34,,
+67,22-Jun-25 11:56:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+68,22-Jun-25 11:32:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+69,22-Jun-25 06:54:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+70,21-Jun-25 21:03:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+71,21-Jun-25 15:48:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+72,20-Jun-25 22:46:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+73,20-Jun-25 22:18:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+74,20-Jun-25 19:02:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+75,20-Jun-25 18:25:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+76,20-Jun-25 18:25:00,,Guest Card,14158,Ni Kadek Sri Wahyuni,,Dias,20-Jun-25 17:59:15,,
+77,19-Jun-25 23:33:00,,Guest Card,14146,Muhamad Hafizha Rosy,,Erdo,19-Jun-25 23:24:51,,
+78,19-Jun-25 23:33:00,,Guest Card,14146,Muhamad Hafizha Rosy,,Erdo,19-Jun-25 23:24:51,,
+79,18-Jun-25 19:50:00,,Guest Card,14109,indra,,Irma,18-Jun-25 12:49:52,,
+80,18-Jun-25 16:00:00,,Guest Card,14109,indra,,Irma,18-Jun-25 12:49:52,,
+81,18-Jun-25 11:40:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+82,18-Jun-25 10:34:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+83,18-Jun-25 07:54:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+84,18-Jun-25 01:09:00,,Guest Card,14096,Sanjaya Eka Prasetyo,,Dias,18-Jun-25 01:00:11,,
+85,18-Jun-25 01:09:00,,Guest Card,14096,Sanjaya Eka Prasetyo,,Dias,18-Jun-25 01:00:11,,
+86,17-Jun-25 20:06:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+87,17-Jun-25 16:23:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+88,17-Jun-25 15:56:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+89,17-Jun-25 14:59:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+90,17-Jun-25 13:50:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+91,17-Jun-25 03:29:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+92,17-Jun-25 03:29:00,,Guest Card,14081,M Fajar Arianto,,Muryadi,17-Jun-25 03:19:27,,
+93,16-Jun-25 13:50:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+94,15-Jun-25 19:25:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+95,15-Jun-25 17:51:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+96,15-Jun-25 17:13:00,,Guest Card,14046,Nufaizzatus salma,,Dias,15-Jun-25 09:44:19,,
+97,15-Jun-25 14:37:00,,Guest Card,14046,Nufaizzatus salma,,Dias,15-Jun-25 09:44:19,,
+98,15-Jun-25 09:52:00,,Guest Card,14046,Nufaizzatus salma,,Dias,15-Jun-25 09:44:19,,
+99,15-Jun-25 09:19:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+100,15-Jun-25 02:03:00,,Guest Card,14040,Ahmad Jaiz,,Ade,15-Jun-25 01:55:22,,
+101,14-Jun-25 11:32:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+102,14-Jun-25 10:29:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+103,14-Jun-25 10:03:00,,Guest Card,14018,img20250614_00030087,,Erdo,14-Jun-25 00:06:23,,
+104,14-Jun-25 00:20:00,,Guest Card,14018,img20250614_00030087,,Erdo,14-Jun-25 00:06:23,,
+105,13-Jun-25 15:57:00,,Guest Card,14010,Dodik Joko Wahyono,,Dias,13-Jun-25 15:50:07,,
+106,13-Jun-25 11:58:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+107,12-Jun-25 11:17:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+108,11-Jun-25 13:10:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+109,09-Jun-25 20:16:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+110,08-Jun-25 15:55:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+111,08-Jun-25 11:41:00,,Guest Card,13932,Ariyo Balitar Lesawa,,reza,08-Jun-25 11:32:03,,
+112,06-Jun-25 10:47:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+113,06-Jun-25 10:05:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+114,06-Jun-25 09:46:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+115,06-Jun-25 09:33:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+116,06-Jun-25 09:33:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+117,06-Jun-25 09:33:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+118,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+119,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+120,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+121,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+122,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+123,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+124,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+125,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+126,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+127,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+128,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+129,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+130,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+131,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+132,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+133,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+134,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+135,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+136,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+137,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+138,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+139,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+140,06-Jun-25 09:32:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+141,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+142,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+143,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+144,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+145,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+146,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+147,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+148,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+149,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+150,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+151,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+152,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+153,06-Jun-25 09:31:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+154,06-Jun-25 09:03:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+155,06-Jun-25 08:46:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+156,06-Jun-25 08:36:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+157,05-Jun-25 23:39:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+158,05-Jun-25 23:39:00,,Guest Card,13894,Sulistyo,,Irma,05-Jun-25 23:30:14,,
+159,05-Jun-25 11:58:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+160,04-Jun-25 21:35:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+161,04-Jun-25 08:59:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+162,03-Jun-25 17:03:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+163,03-Jun-25 15:42:00,,Guest Card,13854,Nurul Endah Eldiana,,reza,03-Jun-25 10:25:03,,
+164,03-Jun-25 10:32:00,,Guest Card,13854,Nurul Endah Eldiana,,reza,03-Jun-25 10:25:03,,
+165,01-Jun-25 00:32:00,,Guest Card,13816,Margunanto Aji,,reza,01-Jun-25 00:24:31,,
+166,31-May-25 21:51:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+167,31-May-25 07:31:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+168,30-May-25 22:15:00,,Guest Card,13791,Damar Abiyoga Gumay,,Irma,30-May-25 17:20:44,,
+169,30-May-25 17:28:00,,Guest Card,13791,Damar Abiyoga Gumay,,Irma,30-May-25 17:20:44,,
+170,30-May-25 16:15:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+171,30-May-25 14:44:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+172,30-May-25 09:40:00,,Guest Card,13778,Dewi Ayulianti,,Dias,30-May-25 09:31:51,,
+173,29-May-25 17:29:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+174,29-May-25 11:29:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+175,29-May-25 10:52:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+176,28-May-25 16:14:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+177,28-May-25 13:22:00,,Master Card,3,yoga,123,Administrator,11-Apr-23 18:09:41,alvin,16-Apr-25 06:47:46
+178,28-May-25 12:47:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+179,27-May-25 14:51:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+180,27-May-25 10:59:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+181,26-May-25 08:15:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+182,26-May-25 00:07:00,,Guest Card,13692,Riandi Sahara,,reza,25-May-25 23:59:54,,
+183,25-May-25 19:04:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+184,25-May-25 18:41:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+185,25-May-25 11:48:00,,Guest Card,13680,Widiyanto,,Dias,25-May-25 11:42:06,,
+186,25-May-25 10:33:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+187,25-May-25 02:56:00,,Guest Card,13676,Qhariza Prima R,,Dias,25-May-25 02:48:34,,
+188,24-May-25 17:22:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+189,24-May-25 09:07:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+190,23-May-25 08:36:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+191,22-May-25 16:49:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+192,22-May-25 16:36:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+193,22-May-25 10:19:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+194,22-May-25 09:05:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+195,21-May-25 13:01:00,,Master Card,3,yoga,123,Administrator,11-Apr-23 18:09:41,alvin,16-Apr-25 06:47:46
+196,21-May-25 08:58:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+197,20-May-25 18:57:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+198,20-May-25 17:26:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+199,19-May-25 16:03:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+200,19-May-25 07:38:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+201,17-May-25 07:14:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+202,16-May-25 22:28:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+203,16-May-25 22:07:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+204,16-May-25 20:37:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+205,16-May-25 20:29:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+206,16-May-25 20:22:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+207,16-May-25 16:33:00,,Guest Card,13566,mima,,Irma,16-May-25 14:25:31,,
+208,16-May-25 13:28:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+209,16-May-25 12:38:00,,Guest Card,13563,ratna,,Irma,16-May-25 12:29:23,,
+210,15-May-25 11:38:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+211,14-May-25 18:01:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+212,13-May-25 19:51:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+213,13-May-25 19:03:00,,Guest Card,13490,Arya Ramadhani Gunar,,Irma,12-May-25 19:21:54,,
+214,13-May-25 16:51:00,,Guest Card,13490,Arya Ramadhani Gunar,,Irma,12-May-25 19:21:54,,
+215,13-May-25 09:13:00,,Guest Card,13490,Arya Ramadhani Gunar,,Irma,12-May-25 19:21:54,,
+216,12-May-25 23:48:00,,Guest Card,13490,Arya Ramadhani Gunar,,Irma,12-May-25 19:21:54,,
+217,12-May-25 21:52:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+218,12-May-25 19:30:00,,Guest Card,13490,Arya Ramadhani Gunar,,Irma,12-May-25 19:21:54,,
+219,12-May-25 12:46:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+220,12-May-25 12:09:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+221,12-May-25 12:09:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+222,12-May-25 12:09:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+223,11-May-25 21:50:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+224,11-May-25 21:32:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+225,11-May-25 21:32:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+226,11-May-25 21:32:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+227,11-May-25 21:10:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+228,11-May-25 21:10:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+229,11-May-25 13:25:00,,Guest Card,13462,Yosep p Kuna Labina,,reza,11-May-25 13:20:14,,
+230,11-May-25 12:36:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+231,10-May-25 18:54:00,,Guest Card,13442,Muhammad Faroug,,reza,10-May-25 18:49:11,,
+232,08-May-25 16:31:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+233,08-May-25 01:55:00,,Guest Card,13385,Candra Ramaditiya,,Irma,07-May-25 15:49:49,,
+234,08-May-25,,Guest Card,13385,Candra Ramaditiya,,Irma,07-May-25 15:49:49,,
+235,07-May-25 23:52:00,,Guest Card,13385,Candra Ramaditiya,,Irma,07-May-25 15:49:49,,
+236,07-May-25 20:30:00,,Guest Card,13385,Candra Ramaditiya,,Irma,07-May-25 15:49:49,,
+237,07-May-25 16:02:00,,Guest Card,13385,Candra Ramaditiya,,Irma,07-May-25 15:49:49,,
+238,07-May-25 15:20:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+239,07-May-25 14:10:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+240,07-May-25 14:03:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+241,07-May-25 03:18:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+242,07-May-25 02:16:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+243,07-May-25 01:24:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+244,06-May-25 22:47:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+245,06-May-25 16:36:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+246,06-May-25 15:10:00,,Guest Card,13357,Candra Ramaditiya,,Dias,06-May-25 15:05:24,Irma,07-May-25 15:48:44
+247,06-May-25 00:10:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+248,05-May-25 22:51:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+249,05-May-25 18:39:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+250,05-May-25 18:06:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+251,05-May-25 16:31:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+252,05-May-25 16:31:00,,Guest Card,13341,Candra Ramaditiya,,Dias,05-May-25 16:25:08,,
+253,04-May-25 22:13:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+254,04-May-25 20:38:00,,Guest Card,13309,Mazi Mada Syauqi,,Irma,04-May-25 11:33:39,,
+255,04-May-25 16:10:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+256,04-May-25 13:29:00,,Guest Card,13309,Mazi Mada Syauqi,,Irma,04-May-25 11:33:39,,
+257,04-May-25 13:16:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+258,04-May-25 11:38:00,,Guest Card,13309,Mazi Mada Syauqi,,Irma,04-May-25 11:33:39,,
+259,04-May-25 08:52:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+260,03-May-25 21:01:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+261,03-May-25 17:09:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+262,03-May-25 16:17:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+263,03-May-25 16:14:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+264,03-May-25 16:05:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+265,03-May-25 16:05:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+266,03-May-25 16:05:00,,Guest Card,13291,Sarip Hidayatulloh,,Irma,03-May-25 15:56:42,,
+267,03-May-25 08:18:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+268,03-May-25 06:44:00,,Guest Card,13281,Pipit Revsil,,Ade,03-May-25 01:15:36,,
+269,03-May-25 01:20:00,,Guest Card,13281,Pipit Revsil,,Ade,03-May-25 01:15:36,,
+270,01-May-25 19:15:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+271,01-May-25 17:54:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+272,01-May-25 12:58:00,,Guest Card,13255,Harry Setiawan,,Dias,01-May-25 12:51:58,,
+273,29-Apr-25 12:52:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+274,29-Apr-25 00:35:00,,Guest Card,13213,Toni Dwi Kuncoro,,reza,29-Apr-25 00:22:47,,
+275,29-Apr-25 00:31:00,,Guest Card,13213,Toni Dwi Kuncoro,,reza,29-Apr-25 00:22:47,,
+276,28-Apr-25 11:32:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+277,28-Apr-25 00:42:00,,Guest Card,13193,Mohamad Burhanudin,,Dias,28-Apr-25 00:16:00,,
+278,28-Apr-25 00:22:00,,Guest Card,13193,Mohamad Burhanudin,,Dias,28-Apr-25 00:16:00,,
+279,27-Apr-25 22:45:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+280,27-Apr-25 14:25:00,,Guest Card,13184,Bhanu Widyadana,,reza,27-Apr-25 14:20:50,,
+281,27-Apr-25 12:24:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+282,26-Apr-25 23:29:00,,Guest Card,13167,Dangan Fitri Setiani,,Irma,26-Apr-25 18:07:56,,
+283,26-Apr-25 19:47:00,,Guest Card,13167,Dangan Fitri Setiani,,Irma,26-Apr-25 18:07:56,,
+284,26-Apr-25 19:34:00,,Guest Card,13167,Dangan Fitri Setiani,,Irma,26-Apr-25 18:07:56,,
+285,26-Apr-25 18:15:00,,Guest Card,13167,Dangan Fitri Setiani,,Irma,26-Apr-25 18:07:56,,
+286,26-Apr-25 17:01:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+287,22-Apr-25 07:33:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+288,20-Apr-25 19:31:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+289,20-Apr-25 17:25:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+290,20-Apr-25 11:30:00,,Guest Card,13070,Rahmatul Khairunisa,,Dias,20-Apr-25 11:26:32,,
+291,20-Apr-25 08:03:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+292,20-Apr-25 07:19:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+293,20-Apr-25 06:40:00,,Guest Card,13065,kukuh,,Muryadi,20-Apr-25 06:37:23,,
+294,20-Apr-25 06:35:00,Expired,Guest Card,13059,kukuh,,Irma,19-Apr-25 21:39:44,,
+295,20-Apr-25 06:35:00,Expired,Guest Card,13059,kukuh,,Irma,19-Apr-25 21:39:44,,
+296,20-Apr-25 06:35:00,Expired,Guest Card,13059,kukuh,,Irma,19-Apr-25 21:39:44,,
+297,20-Apr-25 06:35:00,Expired,Guest Card,13059,kukuh,,Irma,19-Apr-25 21:39:44,,
+298,19-Apr-25 21:43:00,,Guest Card,13059,kukuh,,Irma,19-Apr-25 21:39:44,,
+299,19-Apr-25 17:38:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+300,19-Apr-25 07:53:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+301,18-Apr-25 21:37:00,,Guest Card,13024,Ulta Rimasyandy,,Dias,18-Apr-25 16:23:10,,
+302,18-Apr-25 16:27:00,,Guest Card,13024,Ulta Rimasyandy,,Dias,18-Apr-25 16:23:10,,
+303,18-Apr-25 14:09:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+304,18-Apr-25 03:11:00,,Guest Card,13008,horis,,Erdo,18-Apr-25 03:01:57,,
+305,18-Apr-25 03:11:00,,Guest Card,13008,horis,,Erdo,18-Apr-25 03:01:57,,
+306,18-Apr-25 03:11:00,,Guest Card,13008,horis,,Erdo,18-Apr-25 03:01:57,,
+307,16-Apr-25 09:27:00,,Guest Card,12968,Kholid Nasrulloh,,Irma,16-Apr-25 09:23:20,,
+308,15-Apr-25 20:04:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+309,15-Apr-25 15:35:00,,Guest Card,12944,Apriandi Heru Nurras,,Irma,14-Apr-25 23:11:20,,
+310,15-Apr-25 04:15:00,,Guest Card,12944,Apriandi Heru Nurras,,Irma,14-Apr-25 23:11:20,,
+311,15-Apr-25 04:15:00,,Guest Card,12944,Apriandi Heru Nurras,,Irma,14-Apr-25 23:11:20,,
+312,15-Apr-25 04:15:00,,Guest Card,12944,Apriandi Heru Nurras,,Irma,14-Apr-25 23:11:20,,
+313,14-Apr-25 23:16:00,,Guest Card,12944,Apriandi Heru Nurras,,Irma,14-Apr-25 23:11:20,,
+314,14-Apr-25 17:07:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+315,14-Apr-25 16:55:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+316,14-Apr-25 09:41:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+317,13-Apr-25 18:42:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+318,13-Apr-25 10:33:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+319,13-Apr-25 07:42:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+320,12-Apr-25 21:28:00,,Guest Card,12896,Ahmad Nasrulloh,,reza,12-Apr-25 21:24:08,,
+321,11-Apr-25 14:15:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+322,11-Apr-25 03:06:00,,Guest Card,12855,Fandy Ahmad Banuara,,reza,11-Apr-25 03:02:36,,
+323,10-Apr-25 14:17:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+324,10-Apr-25 11:40:00,,Master Card,3,yoga,123,Administrator,11-Apr-23 18:09:41,alvin,16-Apr-25 06:47:46
+325,09-Apr-25 10:09:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+326,09-Apr-25 07:12:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+327,08-Apr-25 22:30:00,,Guest Card,12808,dito,,Irma,08-Apr-25 22:27:02,,
+328,08-Apr-25 09:03:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+329,07-Apr-25 23:20:00,,Guest Card,12767,Adis Tira Ariyanto,,Irma,07-Apr-25 16:21:04,,
+330,07-Apr-25 16:28:00,,Guest Card,12767,Adis Tira Ariyanto,,Irma,07-Apr-25 16:21:04,,
+331,07-Apr-25 16:28:00,,Guest Card,12767,Adis Tira Ariyanto,,Irma,07-Apr-25 16:21:04,,
+332,07-Apr-25 07:34:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+333,07-Apr-25 05:41:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+334,06-Apr-25 20:54:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+335,06-Apr-25 20:31:00,,Guest Card,12735,Ibrahim Nashiruddin,,Dias,06-Apr-25 15:00:36,,
+336,06-Apr-25 15:04:00,,Guest Card,12735,Ibrahim Nashiruddin,,Dias,06-Apr-25 15:00:36,,
+337,06-Apr-25 15:04:00,,Guest Card,12735,Ibrahim Nashiruddin,,Dias,06-Apr-25 15:00:36,,
+338,06-Apr-25 08:27:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+339,05-Apr-25 18:32:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+340,04-Apr-25 19:29:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+341,04-Apr-25 18:32:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+342,04-Apr-25 06:12:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+343,03-Apr-25 22:34:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+344,03-Apr-25 20:32:00,,Guest Card,12657,Sonia Febrianti Burs,,reza,03-Apr-25 20:21:42,,
+345,03-Apr-25 11:49:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+346,03-Apr-25 09:49:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+347,03-Apr-25 09:43:00,,Guest Card,12632,ulfi,,Irma,02-Apr-25 15:38:10,,
+348,03-Apr-25 09:43:00,,Guest Card,12632,ulfi,,Irma,02-Apr-25 15:38:10,,
+349,02-Apr-25 16:37:00,,Guest Card,12632,ulfi,,Irma,02-Apr-25 15:38:10,,
+350,02-Apr-25 16:36:00,,Guest Card,12632,ulfi,,Irma,02-Apr-25 15:38:10,,
+351,02-Apr-25 16:33:00,,Guest Card,12632,ulfi,,Irma,02-Apr-25 15:38:10,,
+352,02-Apr-25 10:33:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+353,02-Apr-25 08:20:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+354,02-Apr-25 08:17:00,,Guest Card,12612,Tri Anita,,Dias,01-Apr-25 21:21:45,,
+355,02-Apr-25 00:56:00,,Guest Card,12612,Tri Anita,,Dias,01-Apr-25 21:21:45,,
+356,01-Apr-25 21:30:00,,Guest Card,12612,Tri Anita,,Dias,01-Apr-25 21:21:45,,
+357,01-Apr-25 21:08:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+358,01-Apr-25 19:55:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+359,01-Apr-25 11:16:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+360,31-Mar-25 09:07:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+361,30-Mar-25 14:04:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+362,28-Mar-25 18:11:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+363,28-Mar-25 08:37:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+364,27-Mar-25 16:51:00,,Clock Card,,,,,,,
+365,27-Mar-25 10:48:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+366,26-Mar-25 10:52:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+367,25-Mar-25 13:20:00,,Master Card,3,yoga,123,Administrator,11-Apr-23 18:09:41,alvin,16-Apr-25 06:47:46
+368,24-Mar-25 09:34:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+369,23-Mar-25 11:51:00,,Guest Card,12476,Sinta Noviatin,,Dias,23-Mar-25 11:37:23,,
+370,23-Mar-25 10:06:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+371,23-Mar-25 07:47:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+372,23-Mar-25 07:07:00,,Floor Card,15,FRONTOFFICE,FRONTOFFICE,yoga,12-Apr-23 14:30:06,yoga,14-Apr-25 09:53:50
+373,22-Mar-25 16:28:00,,Guest Card,12457,hanan,,Irma,22-Mar-25 16:14:42,,
+374,22-Mar-25 16:27:00,,Guest Card,12457,hanan,,Irma,22-Mar-25 16:14:42,,
+375,22-Mar-25 16:26:00,,Guest Card,12457,hanan,,Irma,22-Mar-25 16:14:42,,
+376,22-Mar-25 11:22:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+377,21-Mar-25 20:58:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+378,21-Mar-25 20:51:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+379,21-Mar-25 07:28:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+380,20-Mar-25 11:19:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+381,19-Mar-25 13:37:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+382,18-Mar-25 11:06:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+383,18-Mar-25 11:06:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+384,17-Mar-25 14:25:00,,Master Card,3,yoga,123,Administrator,11-Apr-23 18:09:41,alvin,16-Apr-25 06:47:46
+385,16-Mar-25 16:27:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+386,14-Mar-25 08:47:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+387,13-Mar-25 14:21:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+388,12-Mar-25 11:58:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+389,11-Mar-25 18:46:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+390,10-Mar-25 10:42:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+391,09-Mar-25 08:31:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+392,08-Mar-25 22:27:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+393,08-Mar-25 10:28:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+394,07-Mar-25 11:31:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+395,06-Mar-25 10:13:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+396,05-Mar-25 13:38:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+397,03-Mar-25 12:31:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+398,01-Mar-25 12:36:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+399,01-Mar-25 00:40:00,,Guest Card,12244,Zidni Fahmi,,Dias,01-Mar-25 00:31:27,,
+400,28-Feb-25 15:50:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+401,28-Feb-25 08:44:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+402,27-Feb-25 23:50:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+403,27-Feb-25 23:50:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+404,27-Feb-25 23:50:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+405,27-Feb-25 23:50:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+406,27-Feb-25 23:50:00,,Guest Card,12226,Muhammad Ridho,,Irma,27-Feb-25 23:41:36,,
+407,27-Feb-25 17:58:00,,HSKP Card,6007,Shift Midle,Shift Midle,yoga,14-May-24 14:44:18,yoga,14-Apr-25 09:59:39
+408,27-Feb-25 17:53:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+409,27-Feb-25 10:04:00,,Guest Card,12201,Rosyd Mustaqim,,Dias,27-Feb-25 09:54:10,,
+410,26-Feb-25 09:30:00,,HSKP Card,7631,HOUSEKEEPING,HOUSEKEEPING,yoga,26-Jul-24 08:59:00,yoga,14-Apr-25 09:58:50
+411,25-Feb-25 23:10:00,,Guest Card,12168,Adi Gusman Harefa,,reza,25-Feb-25 23:03:24,,
+412,25-Feb-25 23:08:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+413,25-Feb-25 23:08:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+414,25-Feb-25 23:08:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+415,25-Feb-25 23:08:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+416,25-Feb-25 23:08:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+417,25-Feb-25 23:07:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+418,25-Feb-25 23:07:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+419,25-Feb-25 23:07:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
+420,25-Feb-25 23:07:00,No permissions,Guest Card,12167,Adi Gusman Harefa,,reza,25-Feb-25 22:56:10,,
