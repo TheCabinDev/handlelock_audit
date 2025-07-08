@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, message='Could not infer format')
 warnings.filterwarnings('ignore', category=UserWarning, message='The argument \'infer_datetime_format\'')
 
-folder_path = "."
+folder_path = "./data_tugu"
 
 csv_files = [
     f for f in os.listdir(folder_path)
@@ -76,9 +76,6 @@ if not dataframes:
 
 df = pd.concat(dataframes, ignore_index=True)
 
-# duplikat = df[df.duplicated(subset=['holder', 'time', 'card_no.'], keep='first')]
-# duplikat.to_csv('duplikat.csv', index=False)
-
 df = df.drop_duplicates(subset=['holder', 'time', 'card_no.', 'card_type'], keep='first').reset_index(drop=True)
 
 # Ubah nama kolom time menjadi waktu_tempel_kartu
@@ -106,16 +103,6 @@ print(df_cleaned['holder'].value_counts().head(5))
 
 df_cleaned['jam_temp'] = df_cleaned['waktu_tempel_kartu'].dt.hour
 
-# akses_jam = df_cleaned['jam_temp'].value_counts().sort_index()
-# if not akses_jam.empty:
-#     akses_jam.plot(kind='bar', title='Akses Pintu per Jam')
-#     plt.xlabel('Jam')
-#     plt.ylabel('Jumlah Akses')
-#     plt.tight_layout()
-#     plt.savefig('akses_per_jam.png')
-#     plt.show()
-
-
 akses_dinihari = df_cleaned[df_cleaned['jam_temp'] < 6]
 print("Log aktivitas antara jam 00:00 - 06:00:", len(akses_dinihari))
 print(df_cleaned['card_type'].value_counts())
@@ -131,40 +118,6 @@ card_usage = (
     .sort_values('Jumlah Penggunaan', ascending=False)
 )
 
-# df_cleaned.to_csv('akses_cleaned.csv', index=False)
-# df_cleaned.to_excel('akses_cleaned.xlsx', index=False)
-
-# akses_per_tanggal = df_cleaned['tanggal'].value_counts().sort_index()
-# plt.figure(figsize=(12, 5))
-# akses_per_tanggal.plot(kind='line', marker='o', title='Akses Pintu per Tanggal')
-# plt.xlabel('Tanggal')
-# plt.ylabel('Jumlah Akses')
-# plt.xticks(rotation=45)
-# plt.tight_layout()
-# plt.savefig('akses_per_tanggal.png')
-# plt.show()
-
-# pivot_heatmap = df_cleaned.pivot_table(index='jam', columns='tanggal', values='holder', aggfunc='count')
-# plt.figure(figsize=(12, 7))
-# sns.heatmap(pivot_heatmap, cmap='YlGnBu', linewidths=0.5)
-# plt.title("Heatmap Akses: Jam vs Tanggal")
-# plt.xlabel("Tanggal")
-# plt.ylabel("Jam")
-# plt.tight_layout()
-# plt.savefig('heatmap_jam_vs_tanggal.png')
-# plt.show()
-
-# plt.figure(figsize=(6, 6))
-# df_cleaned['card_type'].value_counts().plot(kind='pie', autopct='%1.1f%%', startangle=140)
-# plt.title('Distribusi Jenis Kartu')
-# plt.ylabel('')
-# plt.tight_layout()
-# plt.savefig('distribusi_card_type.png')
-# plt.show()
-
-summary_writer = pd.ExcelWriter('laporan_ringkasan_akses.xlsx', engine='xlsxwriter')
-
-
 df_temp = df_cleaned.copy()
 df_temp['jam_temp'] = df_temp['waktu_tempel_kartu'].dt.hour
 
@@ -174,24 +127,6 @@ summary_info = {
     'Jumlah Holder Unik': [df_cleaned['holder'].nunique()],
     'Log Dini Hari (00-06)': [len(akses_dinihari)]
 }
-pd.DataFrame(summary_info).to_excel(summary_writer, sheet_name='Ringkasan Umum', index=False)
-
-df_temp['jam_temp'].value_counts().sort_index().reset_index().rename(
-    columns={'index': 'Jam', 'jam_temp': 'Jumlah Akses'}
-).to_excel(summary_writer, sheet_name='Akses per Jam', index=False)
-
-# akses_per_tanggal.reset_index().rename(columns={'index': 'Tanggal', 'tanggal': 'Jumlah Akses'}).to_excel(
-#     summary_writer, sheet_name='Akses per Tanggal', index=False
-# )
-
-df_cleaned['holder'].value_counts().head(10).reset_index().rename(
-    columns={'index': 'Holder', 'holder': 'Jumlah Akses'}
-).to_excel(summary_writer, sheet_name='Top 10 Holder', index=False)
-
-card_usage.to_excel(summary_writer, sheet_name='Penggunaan Kartu', index=False)
-akses_dinihari.to_excel(summary_writer, sheet_name='Log Dini Hari', index=False)
-
-summary_writer.close()
 
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
 print("\nMembuat laporan per kamar...")
