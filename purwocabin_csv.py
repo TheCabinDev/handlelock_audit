@@ -8,12 +8,12 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, message='Could not infer format')
 warnings.filterwarnings('ignore', category=UserWarning, message='The argument \'infer_datetime_format\'')
 
-folder_path = "./data_rru"
+folder_path = "./data_purwo"
 
 csv_files = [
     f for f in os.listdir(folder_path)
     if f.lower().endswith('.csv')
-    and 'rru' in f.lower()
+    and 'purwo' in f.lower()
     and not f.startswith('akses_cleaned')
 ]
 
@@ -80,7 +80,7 @@ df = pd.concat(dataframes, ignore_index=True)
 # Hapus baris dengan flag tertentu yang tidak diinginkan
 flag_to_remove = ['latch bold record', 'latch bolt record', 'exit double locked', 'double locked record']
 
-print(f"\n🔍 Filtering data berdasarkan kolom flag...")
+print(f"\n Filtering data berdasarkan kolom flag...")
 print(f"Total baris sebelum filter: {len(df)}")
 
 if 'flag' in df.columns:
@@ -104,7 +104,7 @@ else:
     print("⚠️  Kolom 'flag' tidak ditemukan, skip filtering")
 
 # ==================== Cleaning kolom kosong/NaN ====================
-print(f"\n🧹 Cleaning data kosong/NaN...")
+print(f"\n Cleaning data kosong/NaN...")
 print(f"Total baris sebelum cleaning NaN: {len(df)}")
 
 # Hapus baris yang memiliki nilai NaN/kosong di kolom penting
@@ -172,18 +172,18 @@ card_usage = (
 
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
 print("\nMembuat laporan per kamar...")
-per_file_writer = pd.ExcelWriter("akses_cleaned_per_file_rrucabin.xlsx", engine="xlsxwriter")
+per_file_writer = pd.ExcelWriter("akses_cleaned_per_file_purwocabin.xlsx", engine="xlsxwriter")
 
 for sumber_file, df_per_file in df_with_source.groupby("sumber_file"):
     # Hapus kolom sumber_file dari setiap group
     df_per_file_clean = df_per_file.drop(columns=['sumber_file']).reset_index(drop=True)
     
     # Buat nama sheet dari nama file (maksimal 31 karakter untuk Excel)
-    sheet_name = sumber_file.replace(".csv", "").replace("RRU_", "Kamar_")[:31]
+    sheet_name = sumber_file.replace(".csv", "").replace("Purwo_", "Kamar_")[:31]
     
     # Export ke sheet
     df_per_file_clean.to_excel(per_file_writer, sheet_name=sheet_name, index=False)
     print(f"✅ Sheet '{sheet_name}' dibuat dengan {len(df_per_file_clean)} baris data")
 
 per_file_writer.close()
-print("📁 File 'akses_cleaned_per_file_rrucabin.xlsx' berhasil dibuat!")
+print("📁 File 'akses_cleaned_per_file_purwocabin.xlsx' berhasil dibuat!")
