@@ -80,7 +80,7 @@ df = pd.concat(dataframes, ignore_index=True)
 # Hapus baris dengan flag tertentu yang tidak diinginkan
 flag_to_remove = ['latch bold record', 'latch bolt record', 'exit double locked', 'double locked record']
 
-print(f"\n Filtering data berdasarkan kolom flag...")
+print(f"\n🔍 Filtering data berdasarkan kolom flag...")
 print(f"Total baris sebelum filter: {len(df)}")
 
 if 'flag' in df.columns:
@@ -104,7 +104,7 @@ else:
     print("⚠️  Kolom 'flag' tidak ditemukan, skip filtering")
 
 # ==================== Cleaning kolom kosong/NaN ====================
-print(f"\n Cleaning data kosong/NaN...")
+print(f"\n🧹 Cleaning data kosong/NaN...")
 print(f"Total baris sebelum cleaning NaN: {len(df)}")
 
 # Hapus baris yang memiliki nilai NaN/kosong di kolom penting
@@ -123,28 +123,61 @@ for kolom in kolom_penting:
 
 print(f"Total baris setelah cleaning NaN: {len(df)}")
 
-# duplikat = df[df.duplicated(subset=['holder', 'time', 'card_no.'], keep='first')]
-# duplikat.to_csv('duplikat.csv', index=False)
-
-df = df.drop_duplicates(subset=['holder', 'time', 'card_no.', 'card_type', 'id_no.'], keep='first').reset_index(drop=True)
-
-# Ubah nama kolom time menjadi waktu_tempel_kartu
 df = df.rename(columns={'time': 'waktu_tempel_kartu'})
 
 # Standardisasi nama holder
 df['holder'] = df['holder'].astype(str).str.strip().str.lower().str.title()
 
-# Simpan data dengan sumber_file untuk export per file nanti
+# ==================== LOGIC CLEANING SELEKTIF BERDASARKAN CARD_TYPE ====================
+print(f"\n🎯 Cleaning duplikat dengan logic selektif berdasarkan card_type...")
+print(f"Total baris sebelum cleaning duplikat: {len(df)}")
+
+# Pisahkan data berdasarkan card_type
+df_guestcard = df[df['card_type'].str.lower().str.strip() == 'guest card'].copy()
+df_other_cards = df[df['card_type'].str.lower().str.strip() != 'guest card'].copy()
+
+print(f"Data GUESTCARD yang perlu cleaning: {len(df_guestcard)} baris")
+print(f"Data OTHER CARDS (housekeeping, frontoffice, mastercard dll) yang TIDAK perlu cleaning: {len(df_other_cards)} baris")
+
+if len(df_guestcard) > 0:
+    df_guestcard['holder_clean'] = df_guestcard['holder'].str.strip().str.lower()
+    
+    print("Holder yang ditemukan di GUESTCARD:")
+    holders_count = df_guestcard['holder_clean'].value_counts()
+    print(holders_count.head(10))
+    
+    df_guestcard_cleaned = (df_guestcard
+                           .sort_values('waktu_tempel_kartu')  # Urutkan berdasarkan waktu
+                           .drop_duplicates(subset=['holder_clean'], keep='first')  # Ambil 1 per holder_clean
+                           .drop(columns=['holder_clean'])  # Hapus kolom temporary
+                           .reset_index(drop=True))
+    
+    print(f"Setelah cleaning duplikat untuk GUESTCARD (1 per holder): {len(df_guestcard_cleaned)} baris")
+    
+    # Gabungkan kembali: guestcard yang sudah dibersihkan + other cards yang utuh
+    df = pd.concat([df_guestcard_cleaned, df_other_cards], ignore_index=True)
+else:
+    print("Tidak ada data GUESTCARD untuk dibersihkan")
+    df = df_other_cards.copy()
+
+# Urutkan berdasarkan waktu_tempel_kartu dari yang terlama ke terbaru
+df = df.sort_values('waktu_tempel_kartu').reset_index(drop=True)
+
+df.insert(0, 'No', range(1, len(df) + 1))
+
+print(f"Total baris setelah cleaning selektif: {len(df)}")
+
+print("\n📊 Summary per card_type setelah cleaning:")
+print(df['card_type'].value_counts().sort_index())
+
 df_with_source = df.copy()
 
-# Hapus kolom yang tidak diinginkan dari data final
 columns_to_drop = ['sumber_file']
-df = df.drop(columns=[col for col in columns_to_drop if col in df.columns])
+df_display = df.drop(columns=[col for col in columns_to_drop if col in df.columns])
 
-df_cleaned = df.copy()
+df_cleaned = df_display.copy()
 
-
-print("\n Statistik:")
+print("\n📈 Statistik Final:")
 print("Jumlah baris setelah cleaning:", len(df_cleaned))
 print("Total log:", len(df_cleaned))
 print("Jumlah kartu unik:", df_cleaned['card_no.'].nunique() if 'card_no.' in df_cleaned.columns else "Kolom card_no. tidak ditemukan")
@@ -155,9 +188,9 @@ df_cleaned['jam_temp'] = df_cleaned['waktu_tempel_kartu'].dt.hour
 
 akses_dinihari = df_cleaned[df_cleaned['jam_temp'] < 6]
 print("Log aktivitas antara jam 00:00 - 06:00:", len(akses_dinihari))
-print(df_cleaned['card_type'].value_counts())
 
 df_cleaned = df_cleaned.drop(columns=['jam_temp'])
+print("\n📋 Distribusi Card Type:")
 print(df_cleaned['card_type'].value_counts())
 
 card_usage = (
@@ -178,17 +211,17 @@ summary_info = {
 }
 
 # ==================== Export per sheet berdasarkan file sumber (per kamar) ====================
-print("\nMembuat laporan per kamar...")
+print("\n💾 Membuat laporan per kamar...")
 per_file_writer = pd.ExcelWriter("File-SumberanCabin.xlsx", engine="xlsxwriter")
 
 for sumber_file, df_per_file in df_with_source.groupby("sumber_file"):
-    # Hapus kolom sumber_file dari setiap group
+    
     df_per_file_clean = df_per_file.drop(columns=['sumber_file']).reset_index(drop=True)
     
-    # Buat nama sheet dari nama file (maksimal 31 karakter untuk Excel)
+    df_per_file_clean.insert(0, 'No_File', range(1, len(df_per_file_clean) + 1))
+
     sheet_name = sumber_file.replace(".csv", "").replace("Sumberan_", "Kamar_")[:31]
     
-    # Export ke sheet
     df_per_file_clean.to_excel(per_file_writer, sheet_name=sheet_name, index=False)
     print(f"✅ Sheet '{sheet_name}' dibuat dengan {len(df_per_file_clean)} baris data")
 
